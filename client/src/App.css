@@ -7,7 +7,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: rgb(71, 133, 226);
 }
 
 /* mouse over link */
@@ -75,7 +75,7 @@ a:hover {
   color: #c73e1d;
 }
 .formrow{
-  background-color: #522a27;
+  background-color: #274a5f;
   padding: 50px;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ body{
 
 }
 .navigation{
-  background-color: #9CB380;
+  background-color: #6ea8f3;
   height: 75px;
   font-weight: bolder;
   color:#522a27;
@@ -115,9 +115,9 @@ body{
 }
 .footer{
   display: flex;
-  background-color: #9CB380;
+  background-color: #6ea8f3;
   height: 100px;
-  color:#522a27;
+  color:#f7f5f4;
   justify-content: center;
   align-items: center;
   font-weight: bolder;
@@ -232,3 +232,4 @@ border-radius: 10px;
   color: red;
   font-size: small;
 }
+

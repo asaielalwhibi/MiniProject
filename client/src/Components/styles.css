@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* General styles */
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the login page */
+  .login-container {
+    padding: 50px;
+  }
+  
+  /* Title styles */
+  .app-title h1 {
+    text-align: center;
+    color: #343a40; /* Dark color for the title */
+  }
+  
+  /* Form row styles */
+  .form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Column styles */
+  .column-div {
+    padding: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #ffffff; /* White background for the card */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit max width for the card */
+    margin: auto; /* Center the card */
+  }
+  
+  /* Logo container styles */
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and label styles */
+  .small-text {
+    font-size: 14px;
+    color: #6c757d; /* Muted text color */
+  }
+  
+  input {
+    margin-bottom: 15px;
+  }
+  
+  /* Button styles */
+  .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Checkbox styles */
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  /* Link styles */
+  .small-text a {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+  }
+  
+  .small-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Image styles */
+  .login-image {
+    width: 100%;
+    max-width: 400px; /* Limit max width for larger screens */
+    border-radius: 8px;
+  }
+  

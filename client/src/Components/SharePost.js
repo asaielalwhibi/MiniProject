@@ -51,7 +51,7 @@ const SharePosts = () => {
             value={postMsg}
             onChange={(e) => setpostMsg(e.target.value)}
           />
-          <Button onClick={() => handlePost()}> PostIT</Button>
+          <Button onClick={() => handlePost()}> enter your project</Button>
         </Col>
       </Row>
     </Container>

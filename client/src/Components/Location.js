@@ -45,6 +45,7 @@ const Location = () =>{
           Country: {geoData.location.country}
           <br />
           Region: {geoData.location.region}
+
         </div>
       ) : (
         <p>Loading Geolocation Data...</p>

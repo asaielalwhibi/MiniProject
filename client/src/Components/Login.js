@@ -8,9 +8,11 @@ import {
   Row,
   Col,
 } from "reactstrap";
+
+
 import LoginImage from "../Images/loginImage.jpg";
 import Logo from "../Images/logo-t.png";
-import image1 from "../Images/image1.jpg";
+import image1 from "../Images/image1.png";
 import { Link } from "react-router-dom";
 import { login } from "../Features/UserSlice";
 import { useState, useEffect} from "react";

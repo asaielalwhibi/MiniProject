@@ -9,7 +9,7 @@ import {
   NavLink,
   Container,
 } from "reactstrap";
-import Logo from "../Images/logo-t.png";
+import Logo from "../Images/logo.jftf";
 import { FaHome, FaUserAlt, FaSignOutAlt } from "react-icons/fa";
 import { Tooltip } from "reactstrap";
 import { useDispatch } from "react-redux";
@@ -45,6 +45,18 @@ const Header = () => {
             <NavItem>
               <Link to="/profile" className="navs">
                 Profile
+              </Link>
+              
+            </NavItem>
+            <NavItem>
+              <Link to="/Information" className="navs">
+                information
+              </Link>
+              
+            </NavItem>
+            <NavItem>
+              <Link to="/calculator" className="navs">
+                calculator
               </Link>
               
             </NavItem>

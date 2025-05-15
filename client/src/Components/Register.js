@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 import LoginImage from "../Images/loginImage.jpg";
 import Logo from "../Images/logo-t.png";
-import image1 from "../Images/image1.jpg";
+import image1 from "../Images/image1.png";
 import { registerUser } from "../Features/UserSlice";
 import { userSchemaValidation } from "../Validations/UserValidations";
 import * as yup from "yup";
